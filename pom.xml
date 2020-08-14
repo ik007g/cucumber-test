@@ -56,7 +56,7 @@
              <configuration>
                  <includes>
                      <include>**/CukesRunner.java</include>
-                    <include>**/FailedTestRunner.java</include>
+<!--                    <include>**/FailedTestRunner.java</include>-->
                  </includes>
                  <testFailureIgnore>true</testFailureIgnore>
                  <runOrder>alphabetical</runOrder>

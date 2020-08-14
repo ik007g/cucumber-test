@@ -1,6 +1,4 @@
-@show_records @smoke @lib-7031
 Feature: User table search and sort
-
   Background:
     Given I access "Users" page as a librarian
 

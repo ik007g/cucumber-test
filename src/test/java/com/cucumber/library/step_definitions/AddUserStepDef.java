@@ -29,7 +29,7 @@ public class AddUserStepDef {
 //    public void i_click_on_Add_User() {
 //        usersPage.addUserLink.click();
 //    }
-    @When("I click on {}")
+    @When("I click on {} button")
     public void i_click_on_Add_User(String button) {
         button=button.toLowerCase();
         switch (button){
