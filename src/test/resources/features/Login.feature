@@ -15,10 +15,5 @@ Feature: Login
     When I login as student
     Then student dashboard should be displayed
 
-    @admin
-  Scenario: Login as an admin
-    Given I am on the login page
-    When I login as an admin
-    Then dashboard should be displayed
 
 
