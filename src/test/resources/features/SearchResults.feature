@@ -3,7 +3,6 @@ Feature: Search functionality on the Users page
 
   Background:
     Given I am on the login page
-@now
   Scenario: Search accuracy
     And I login as librarian
     And I click on "Users" link

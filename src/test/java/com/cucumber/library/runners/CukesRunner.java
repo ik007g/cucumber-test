@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cucumber/library/step_definitions",
         dryRun = false,
-        tags = "@hw"
+        tags = "@regression"
 
 )
 

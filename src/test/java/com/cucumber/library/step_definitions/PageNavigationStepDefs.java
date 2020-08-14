@@ -29,17 +29,15 @@ public class PageNavigationStepDefs {
     public void i_click_on_link(String link) {
         link = link.toLowerCase();
         switch (link) {
-            case "dashboard":
+            case LibraryConstants.DASHBOARD:
                 dashboardPage.dashboard.click();
                 break;
-            case "users":
+            case LibraryConstants.USERS:
                 dashboardPage.users.click();
                 break;
-            case "books":
+            case LibraryConstants.BOOKS:
                 dashboardPage.books.click();
                 break;
-            case "add user":
-                usersPage.addUserLink.click();
         }
     }
 

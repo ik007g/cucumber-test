@@ -34,6 +34,7 @@ public class AddUserStepDef {
         button=button.toLowerCase();
         switch (button){
             case LibraryConstants.ADD_USER:
+                BrowserUtils.wait(1);
                 usersPage.addUserLink.click();
                 break;
             case LibraryConstants.CLOSE:
@@ -56,11 +57,11 @@ public class AddUserStepDef {
 //            System.out.println("value= "+fields.get(key));
 //            System.out.println();
 //        }
-        String actFullName=usersPage.fullName.getAttribute("Placeholder");
-        String actPassword=usersPage.password.getAttribute("Placeholder");
-        String actEmail=usersPage.email.getAttribute("Placeholder");
+        String actFullName=addUserPage.fullName.getAttribute("Placeholder");
+        String actPassword=addUserPage.password.getAttribute("Placeholder");
+        String actEmail=addUserPage.email.getAttribute("Placeholder");
         //String expAddress = fields.get("address");
-        String actualAddress = usersPage.address.getAttribute("placeholder");
+        String actualAddress = addUserPage.address.getAttribute("placeholder");
 
         Assert.assertEquals("",actualAddress);
       //  assertTrue("Address placeholder must be empty",usersPage.address.getAttribute("placeholder").isEmpty());
