@@ -1,3 +1,4 @@
+@regression
 Feature: User account test
 
   Scenario: Verify login information

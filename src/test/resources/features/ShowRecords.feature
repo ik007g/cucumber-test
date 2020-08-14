@@ -1,4 +1,4 @@
-@show_records  @smoke
+@show_records  @smoke @regression
 Feature: Show records functionality
 
   Background:
