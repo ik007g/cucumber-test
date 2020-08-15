@@ -1,4 +1,4 @@
-@regression
+@regression @hub
 Feature: Add new users dialog
   Scenario: Placeholder tests
     Given I am on the login page
