@@ -62,7 +62,7 @@
                  <runOrder>alphabetical</runOrder>
                  <parallel>methods</parallel>
 <!--                 <useUnlimitedThreads>true</useUnlimitedThreads>-->
-                 <threadCount>3</threadCount>
+                 <threadCount>2</threadCount>
                  <perCoreThreadCount>false</perCoreThreadCount>
                  <forkCount>2C</forkCount>
              </configuration>

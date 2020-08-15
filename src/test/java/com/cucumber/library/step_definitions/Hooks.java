@@ -27,7 +27,7 @@ public class Hooks {
 
     @After
     public void tearDownScenario(Scenario scenario){
-//        System.out.println("scenario.getSourceTagNames() = "+scenario.getSourceTagNames());
+        System.out.println("scenario.getSourceTagNames() = "+scenario.getSourceTagNames());
 //        System.out.println("scenario.getName() = "+scenario.getName());
         scenario.write("Complete scenario: "+scenario.getName());
         if(scenario.isFailed()){

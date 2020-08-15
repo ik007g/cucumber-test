@@ -1,4 +1,4 @@
-@smoke @lib-132 @navigation
+@smoke @lib-132 @navigation @hub
 Feature: Page navigation links
 
   Background:
