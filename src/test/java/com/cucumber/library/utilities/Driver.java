@@ -74,7 +74,7 @@ public class Driver {
 
                 case "remote-chrome":
                     try {
-                        URL url = new URL("http://54.237.119.109:4444/wd/hub");
+                        URL url = new URL("http://52.87.235.35:4444/wd/hub");
                         ChromeOptions chromeOptions = new ChromeOptions();
                         driverPool.set(new RemoteWebDriver(url, chromeOptions));
                     } catch (MalformedURLException e) {
